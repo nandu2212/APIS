@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+.tb{
+    border: 2px solid black;
+}
+        </style>
+        <body>
+            <table class="tb">
+                <tr>
+                 <th>Customer_id</th>
+                 <th>Customer Name</th>
+                 <th>Email</th>
+                </tr>
+                 <!-- </table> -->
+            <% for (let i=0;i<customer.length;i++) {%>
+                <!-- <table> -->
+                    <tr>
+                     <td><%= customer[i].customer_id %></td>
+                     <td><%= customer[i].customerName %></td>
+                     <td><%= customer[i].email%></td>
+                    </tr>
+                     
+            <% } %>
+        </table>
+        </body>
+    </head>
+</html>

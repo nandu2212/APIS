@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <style>
+.tb{
+    border: 2px solid black;
+}
+        </style>
+        <body>
+            <table class="tb">
+                <tr>
+                 <th >Customer_id</th>
+                 <th >inventory_id</th>
+                 <th >Item Name</th>
+                 <th >Quantity</th>
+                </tr>
+                 <!-- </table> -->
+            <% for (let i=0;i<order.length;i++) {%>
+                <!-- <table> -->
+                    <tr>
+                     <td><%= order[i].customer_id %></td>
+                     <td><%= order[i].Inventory_id %></td>
+                     <td><%= order[i].ItemName %></td>
+                     <td><%= order[i].Quantity %></td>
+                    </tr>
+                     
+            <% } %>
+        </table>
+        </body>
+    </head>
+</html>
+

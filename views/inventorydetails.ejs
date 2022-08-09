@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+   
+.tb{
+    border: 2px solid black;
+}
+        </style>
+        <body>
+            <table class="tb">
+                <tr>
+                 <th class="type">Inventory Type</th>
+                 <th class="name">Item Name</th>
+                 <th class="quantity">Available_quantity</th>
+                </tr>
+            <% for (let i=0;i<user.length;i++) {%>
+                    <tr>
+                     <td><%= user[i].InventoryType %></td>
+                     <td><%= user[i].ItemName%></td>
+                     <td><%= user[i].AvailableQuantity %></td>
+                    </tr>      
+            <% } %>
+        </table>
+        </body>
+    </head>
+</html>

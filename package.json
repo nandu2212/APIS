@@ -1,0 +1,27 @@
+{
+  "name": "apis-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandu2212/APIS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandu2212/APIS/issues"
+  },
+  "homepage": "https://github.com/nandu2212/APIS#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.19"
+  }
+}
